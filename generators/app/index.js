@@ -352,6 +352,7 @@ module.exports = class extends Generator {
       filesArray.push(
         { src: 'jestTests/**', dest: 'src' },
         { src: 'scripts/**', dest: 'scripts' },
+        { src: 'config/**', dest: 'config' },
         { src: 'env.test', dest: '.env.test' }
       )
     }
